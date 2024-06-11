@@ -4,6 +4,7 @@ import Home from './components/Home.jsx';
 import Footer from './components/Footer.jsx';
 import AboutUs from './components/AboutUs.jsx';
 import Service from './components/Service.jsx';
+import Team from './components/Team.jsx';
 
 const Layout = () => {
   return (
@@ -12,6 +13,7 @@ const Layout = () => {
       <Home/>
       <AboutUs/>
       <Service/>
+      <Team/>
       <Footer/>
       
     </div>

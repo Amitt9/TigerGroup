@@ -41,7 +41,7 @@ const Service = () => {
     ]
    
       const items = cards.map((card, index) => (
-        <div key={index} className="flex-shrink-0 w-64 bg-white shadow-lg rounded-lg overflow-hidden  ml-24 m-4">
+        <div key={index} className="flex-shrink-0 w-64 bg-white shadow-lg rounded-lg overflow-hidden  lg:ml-24 m-4">
           <img src={card.image} alt={card.title} className="w-full h-56 object-cover" />
           <div className="p-4">
             <h3 className="text-xl font-semibold mb-2">{card.title}</h3>

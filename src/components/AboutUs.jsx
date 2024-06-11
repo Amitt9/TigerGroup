@@ -5,8 +5,8 @@ const AboutUs = () => {
     <div className="">
         <div className="container mx-auto p-4 flex flex-wrap items-center justify-between bg-white shadow-lg rounded-lg">
       <div className="w-full lg:w-1/2 p-4 flex flex-col items-center lg:items-start">
-        <div className="mb-4">
-          <div className="bg-green-500 text-white text-center p-4 rounded-lg shadow-lg mb-4">
+        <div className="mb-4 border max-sm:hidden ">
+          <div className="bg-green-500 text-white text-center p-4 rounded-lg shadow-lg mb-4 border border-black">
             <button className="flex items-center justify-center">
               <svg className="h-6 w-6 mr-2" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M5 3L19 12L5 21V3Z" fill="currentColor" />
@@ -15,7 +15,7 @@ const AboutUs = () => {
             </button>
           </div>
           <img className="rounded-lg shadow-lg mb-4" src="https://via.placeholder.com/400x300" alt="Main" />
-          <div className="bg-green-500 text-white text-center p-4 rounded-lg shadow-lg">
+          {/* <div className="bg-green-500 text-white text-center p-4 rounded-lg shadow-lg border border-black">
             <div className="flex items-center justify-center">
               <svg className="h-12 w-12 text-white mr-2" viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg">
                 <circle
@@ -41,7 +41,7 @@ const AboutUs = () => {
               <span className="text-lg font-semibold">80%</span>
             </div>
             <p className="text-sm">Just Get 80% fund</p>
-          </div>
+          </div> */}
         </div>
       </div>
       <div className="w-full lg:w-1/2 p-4">
